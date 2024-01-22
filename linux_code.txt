@@ -1,0 +1,15 @@
+mkdir Favorite_movies
+cd Favorite_movies
+touch my_top_10_movies.txt
+nano my_top_10_movies.txt
+more my_top_10_movies.txt
+
+mkdir Favorite_actors
+cd Favorite_actors
+echo > my_top_10_actors.txt
+nano my_top_10_actors.txt
+more my_top_10_actors.txt
+
+mv my_top_10_movies.txt Favorite_actors/
+rmdir Favorite_movies
+mv Favorite_actors Top_movies_and_actors
