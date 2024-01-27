@@ -13,3 +13,7 @@ more my_top_10_actors.txt
 mv my_top_10_movies.txt Favorite_actors/
 rmdir Favorite_movies
 mv Favorite_actors Top_movies_and_actors
+
+# dont forget to add comments on each action
+# next try to work with vi(or vim) instead of nano
+# also show the directories by using pwd
